@@ -1,5 +1,5 @@
 
-
+def run_query(db,query):
+    return db.run(query)
 def get_schema(db):
-    schema=db.get_table_info()
-    return schema
+    return db.get_table_info()
